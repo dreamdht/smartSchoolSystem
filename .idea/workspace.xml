@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="smartSchoolSystem:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e257e21b-acfb-4db9-8ef7-1d8f2ba881d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/ClassesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/KidsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/ParentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/mapper/ClassesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/mapper/KidsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/mapper/ParentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/mapper/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/pojo/Classes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/pojo/Kids.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/pojo/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/pojo/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/ClassesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/KidsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/ParentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Demo.java" afterDir="false" />
+    <list default="true" id="e257e21b-acfb-4db9-8ef7-1d8f2ba881d7" name="Default Changelist" comment="2.0 项目基本搭建">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/impl/ClassesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/impl/KidsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/impl/ParentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/lsit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/ClassesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/ClassesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/KidsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/KidsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/ParentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/ParentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flyfish/mapper/ClassesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/mapper/ClassesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flyfish/service/ClassesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flyfish/service/ClassesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Demo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +42,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d8b5cc90-7750-4193-a104-fad75e8a0387" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -82,46 +95,201 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Environment/android" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../project/程序员延寿指南" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2564706" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26987952" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="spring" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\RootCode\项目\智慧家校管理系统\smartSchoolSystem\src\main\webapp" />
+      <recent name="E:\RootCode\项目\智慧家校管理系统\smartSchoolSystem\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\RootCode\项目\智慧家校管理系统\smartSchoolSystem\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\RootCode\项目\智慧家校管理系统\smartSchoolSystem\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.flyfish.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.45">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyfish.test.Demo" />
       <module name="smartSchoolSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="dEMO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyfish.dEMO" />
+      <module name="smartSchoolSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartSchoolSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <option name="METHOD_NAME" value="demo01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.demo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartSchoolSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <option name="METHOD_NAME" value="demo02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo.demo03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartSchoolSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <option name="METHOD_NAME" value="demo03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="smartSchoolSystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="651aebbc-7293-4a18-b2de-3a2c5d57fc3f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51937" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="smartSchoolSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.dEMO" />
+      <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="JUnit.Demo.demo01" />
+      <item itemvalue="JUnit.Demo.demo02" />
+      <item itemvalue="JUnit.Demo.demo03" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.45" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="JUnit.Demo.demo03" />
+        <item itemvalue="JUnit.Demo.demo01" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="JUnit.Demo.demo02" />
+        <item itemvalue="Application.dEMO" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e257e21b-acfb-4db9-8ef7-1d8f2ba881d7" name="Default Changelist" comment="" />
@@ -129,11 +297,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677312735326</updated>
-      <workItem from="1677312736540" duration="7184000" />
+      <workItem from="1677312736540" duration="13476000" />
+      <workItem from="1677341967175" duration="570000" />
+      <workItem from="1677378873846" duration="10168000" />
     </task>
+    <task id="LOCAL-00001" summary="2.0 项目基本搭建结束">
+      <created>1677335635322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677335635322</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2.0 项目基本搭建结束">
+      <created>1677335682896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677335682896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.0 项目基本搭建结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0 项目基本搭建结束" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/test/java/Demo.java" line="36">
+        <watch expression="((Demo)this).classesMapper" language="JAVA" custom="Demo" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
